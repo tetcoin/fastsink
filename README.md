@@ -1,4 +1,4 @@
-# QuickSink
+# Fastsink, a QuickSink deriviative
 
 Allows creating an implementation of the `Sink` trait from an initial value
 and a closure returning a `Future`.

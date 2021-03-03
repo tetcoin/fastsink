@@ -17,9 +17,9 @@
 //! ```no_run
 //! use async_std::io;
 //! use futures::prelude::*;
-//! use quicksink::Action;
+//! use fastsink::Action;
 //!
-//! quicksink::make_sink(io::stdout(), |mut stdout, action| async move {
+//! fastsink::make_sink(io::stdout(), |mut stdout, action| async move {
 //!     match action {
 //!         Action::Send(x) => stdout.write_all(x).await?,
 //!         Action::Flush => stdout.flush().await?,

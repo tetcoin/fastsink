@@ -1,5 +1,5 @@
 [package]
-name = "quicksink"
+name = "fastsink"
 version = "0.1.2"
 authors = ["Parity Technologies <admin@parity.io>"]
 description = "Create a Sink from some value and a closure returning a Future."
@@ -7,7 +7,9 @@ keywords = ["async", "futures", "sink"]
 categories = ["asynchronous"]
 license = "Apache-2.0 OR MIT"
 readme = "README.md"
-repository = "https://github.com/paritytech/quicksink"
+repository = "https://github.com/tetcoin/fastsink"
+homepage = "https://github.com/tetcoin/fastsink"
+documentation = "https://docs.rs/fastsink"
 edition = "2018"
 
 [dependencies]
